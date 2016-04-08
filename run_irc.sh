@@ -2,9 +2,9 @@
 #This script is to run irssi auto 
 SERVICE=irc.freenode.net
 PORT=6667
-NICKENAME=mazelinux
-PASSWORD=406732060chen
+NICKNAME=
+PASSWORD=
 
 
-irssic -c $SERVICE -p $PORT -n $NICKNAME -p $PASSWORD
+irssi -c $SERVICE -p $PORT -n $NICKNAME -w $PASSWORD
 
